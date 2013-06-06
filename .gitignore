@@ -4,3 +4,17 @@
 *.jar
 *.war
 *.ear
+
+
+# IntelliJ #
+*.iml
+.idea
+.idea/*
+
+# generated ddl #
+#*.jdbc
+
+# build directories #
+target
+target/*
+
