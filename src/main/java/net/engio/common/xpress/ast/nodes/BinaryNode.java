@@ -3,7 +3,7 @@ package net.engio.common.xpress.ast.nodes;
 import java.util.ArrayList;
 import java.util.List;
 
-import static net.engio.common.xpress.ast.nodes.NodeUtils.*;
+import static net.engio.common.xpress.ast.nodes.Node.Utils.*;
 
 
 /**

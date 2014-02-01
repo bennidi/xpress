@@ -8,9 +8,9 @@ import net.engio.common.xpress.ast.nodes.Node;
  * @author bennidi
  *         Date: 3/24/13
  */
-public interface AstTransformation<I extends Node, R extends Node> {
+public interface AstTransformation<IN extends Node, OUT extends Node> {
 
-    public R transform(I input);
+    public OUT transform(IN input);
 
     public boolean accepts(Node node);
 }

@@ -12,4 +12,17 @@ public interface Node {
 
     public List<Node> getChildren();
 
+    /**
+    * Todo: Add javadoc
+    *
+    * @author bennidi
+    *         Date: 6/5/13
+    */
+    class Utils {
+
+        public static boolean isNode(Object o){
+            return Node.class.isAssignableFrom(o.getClass());
+        }
+
+    }
 }
